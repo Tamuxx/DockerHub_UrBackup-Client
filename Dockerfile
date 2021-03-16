@@ -6,7 +6,7 @@
 FROM alpine:3.12.0
 
 # install packages
-RUN apk --no-cache add cifs-utils bash wget
+RUN apk --no-cache add bash wget
 RUN TF=$(mktemp) && wget "https://hndl.urbackup.org/Client/2.4.10/UrBackup%20Client%20Linux%202.4.10.sh" -O $TF && sh $TF; rm -f $TF
 
 COPY entrypoint.sh /usr/bin/
