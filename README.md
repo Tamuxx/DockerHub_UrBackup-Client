@@ -1,6 +1,6 @@
 # UrBackup-Client1
 
-This Alpine Linux container mount an local directory into /data and de UrBackup client service. 
+This Alpine Linux container mount an local directory into /data and start the UrBackup client service. 
 
 From the UrBackup server set /data in "Default Directories to Backup".
 
