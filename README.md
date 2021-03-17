@@ -10,7 +10,7 @@ From the UrBackup server set /data in "Default Directories to Backup".
 
     services:
       urbackup_client_srv1:
-        image: tamuxx/urbackup_client
+        image: tamuxx/urbackup-client
         container_name: srv1_urclient
         restart: unless-stopped
         hostname: SRV1
